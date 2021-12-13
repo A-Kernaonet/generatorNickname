@@ -8,89 +8,99 @@
     <meta name="Description" content="Enter your description here" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link href='//fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800'
-        rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Title</title>
+    <title>Générateur de noms</title>
 </head>
 
 <body>
-    <div class=container-fluid bg-#25076b text-darks>
-        <div class="row justify-content-center">
-            <img src="./assets/img/logo_la_manu_formation_400.png" width="30" height="24" class="img-fluid" alt="logo_la_manu_formation"...">
-            <div class="text-center col-md-6">
-                <nav class="navbar navbar-light bg-#47178f">
-                    <div class="container-fluid text-center border border-dark">
-                        <a class="navbar-brand text-center " href="#">
-                            <h1>Nom Appli</h1>
-                        </a>
-                    </div><br>
-                </nav>
-                <form class="form_choix_style justify-content-center" name="form_choix">
-                    <div class="form-group col-md-4">
-                        <label class="h3" for="inputState">Jour de naissance</label><br>
-                        <select id="inputState" class="form-control hfst-italic text-center">
-                            <option selected>Choisissez votre jour</option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                            <option>6</option>
-                            <option>7</option>
-                            <option>8</option>
-                            <option>9</option>
-                            <option>10</option>
-                            <option>11</option>
-                            <option>12</option>
-                            <option>13</option>
-                            <option>14</option>
-                            <option>15</option>
-                            <option>16</option>
-                            <option>17</option>
-                            <option>18</option>
-                            <option>19</option>
-                            <option>20</option>
-                            <option>21</option>
-                            <option>22</option>
-                            <option>23</option>
-                            <option>24</option>
-                            <option>25</option>
-                            <option>26</option>
-                            <option>27</option>
-                            <option>28</option>
-                            <option>29</option>
-                            <option>30</option>
-                            <option>31</option>
-                        </select>
-                    </div>
-                    <div class="form-group justify-content-center">
-                        <label class="h3" for="inputState">Mois de naissance</label><br>
-                        <select id="inputState" class="form-control text-center fst-italic">
-                            <option selected>Choisissez votre mois</option>
-                            <option>Janvier</option>
-                            <option>Février</option>
-                            <option>Mars</option>
-                            <option>Avril</option>
-                            <option>Mai</option>
-                            <option>juin</option>
-                            <option>Juillet</option>
-                            <option>Août</option>
-                            <option>Septembre</option>
-                            <option>Octobre</option>
-                            <option>Novembre</option>
-                            <option>Décembre</option>
-                    </div>
-                </form>
-                <h1></h1>
-                <input type="radio" class="btn-check justify-content-center" name="goboutton" id="goBtn"
-                    autocomplete="off" checked>
-                <label class="btn btn-outline-primary" for="btnGo">GO</label>
-            </div>
+
+    <header class="header">
+        <h1>Title</h1>
+    </header>
+
+    <nav class="navbar m-auto">
+        <div class="container-fluid d-flex justify-content-center fw-bold">
+            <a class="navbar-brand text-white h1" href="index.html">
+                Nom Appli
+            </a>
+        </div><br>
+    </nav>
+
+    <p class="text-white text-center fw-bold pt-5 fs-1">Besoin d'un pseudo ?</p>
+    
+    <div class="container-fluid ">
+        <form class="form pt-5 text-center m-auto" method="post" action="./page.html"></form>>
+            <div class="form-group col-md-4 m-auto">
+            <label  for="inputState"  class="fw-bold text-white">Jour de naissance</label><br>
+            <select required id="jour" name="inputJour="form-control hfst-italic text-center">
+                <option selected>Choisissez votre jour</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+            </select>
         </div>
-    </div>
+        <div class="form-group col-md-4 pt-3 m-auto">
+            <label class="fw-bold text-white" for="inputState">Mois de naissance</label><br>
+            <select required id="mois" name="inputMois" class="form-control text-center fst-italic">
+                <option selected>Choisissez votre mois</option>
+                <option>Janvier</option>
+                <option>Février</option>
+                <option>Mars</option>
+                <option>Avril</option>
+                <option>Mai</option>
+                <option>juin</option>
+                <option>Juillet</option>
+                <option>Août</option>
+                <option>Septembre</option>
+                <option>Octobre</option>
+                <option>Novembre</option>
+                <option>Décembre</option>
+        </div>
+        <input type="submit" name="btnPseudo" id="btnPseudo">
+    </form>
+    <h1></h1>
+    <!-- <div class="pt-3">
+        <button class="goButton btn text-white">Let's Go!</button>
+
+    </div> -->
+    <footer class="footer text-white row m-auto align-items-center">
+        <p class="col-6 text-start">©Nomappli</p>
+        <p class="col-6 text-end">Mentions Légales</p>
+    </footer>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
+
 </html>
