@@ -1,0 +1,9 @@
+#modal_qrcode {
+    width: 50%;
+    height: 250px;
+}
+
+#modal_qrcode img {
+    height: 200px;
+    width: 200px;
+}
