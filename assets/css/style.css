@@ -9,14 +9,7 @@ body {
 .goButton {
     background: #25076b;
 }
-/* 
-.form {
-    position: absolute;
-    top: 35%;
-    width: 100rem;
-    height: 150px;
-}
-*/
+
 @media screen and (max-width : 600px) {
 
     .form {
