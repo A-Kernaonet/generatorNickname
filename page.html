@@ -14,31 +14,39 @@
 
 <body>
 
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
-    
-    <header class="header">
-        <h1>Title</h1>
-    </header>
+    <div class="container-fluid">
 
-    <div class="pseudo">
-        <div>
-            <h2>Vous êtes :</h2>
+        <header class="header">
+            <h1>PSEUDO KAHOOT</h1>
+        </header>
+
+        <div class="pseudo">
+            <div>
+                <h2>Vous êtes :</h2>
+            </div>
+            <div class="example" placeover>Pseudo</div>
+
+            <p></p>
+
+            <div class="row">
+                
+                <button class=" qrCodeBtn  btn btn-info btn-lg" id="btnModal">Qr code</button>
+            </div>
         </div>
-        <div class="example" placeover>Pseudo</div>
+
+
     </div>
 
-    <button id="btnModal">Qr code</button>
-
-        <div id="modal_qrcode" class="modal">
+    <div id="modal_qrcode" class="modal">
         <!-- Modal content -->
-            <div class="modal-content">
-                <span id='modalClose'>&times;</span>
-                <img src="assets/img/qrcode.png" alt="qrcode">
-             </div>
+        <div class="modal-content ">
+            <span id='modalClose'>&times;</span>
+            <img src="assets/img/qrcode.png" alt="qrcode">
         </div>
-    
+    </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/script.js"></script>
 </body>

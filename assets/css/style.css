@@ -2,11 +2,7 @@
     background: #25076b;
 }
 
-body {
-    background: #47178f;
-}
-
-header
+.header
 {
     height: 150px;
     width: auto;
@@ -33,7 +29,14 @@ header
     color: white;
     text-align: center;
     font-size: 25px;
-    padding: 200px;
+    padding: 20px;
+}
+.qrCodeBtn{
+    width: 100%;
+    background-color: #47178f;
+    color: white;
+    text-align: center;
+    font-size: 25    px;
 }
 
 .example{
