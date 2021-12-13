@@ -1,5 +1,4 @@
 header{
-    border: 5px solid red;
     height: 150px;
     width: 100%;
     background-color:  #25076b;
@@ -9,11 +8,19 @@ header{
 }
 
 .pseudo{
-    border: 5px solid black;
     height: 812px;
     width: 100%;
     background-color: #47178f;
     color: white;
     text-align: center;
     padding: 100px;
+}
+
+.example{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    color: gray;
+    text-align: center;
+    padding: 20px;
 }
