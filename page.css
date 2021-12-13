@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+
+
+.navbar {
+    background: #25076b;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+.header
+{
+    background-color:  #25076b;
+    text-align: center;
+}
+body {
+    background: #47178f;
+}
+.goButton {
+    background: #25076b;
+}
+.footer {
+    background-color: #25076b;
+    position: absolute;
+    bottom: 0;
+}
+.pseudo{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.example{
+    height: 3em;
+    width: 30em;
+    background-color: white;
+    color: gray;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+@media screen and (max-width : 600px) {
+
+    .pseudo {
+        width: 13rem;
+    }
+} 
+
+@media screen and (max-width : 600px) {
+
+    .example {
+        width: 13rem;
+    }
+}
