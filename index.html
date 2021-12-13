@@ -16,20 +16,20 @@
 </head>
 
 <body>
-    <div class=container-fluid>
+    <div class=container-fluid bg-primary text-darks>
         <div class="text-center col-md-6">
             <nav class="navbar navbar-light bg-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        Nom Appli
+                    <a class="navbar-brand text-center" href="#">
+                       <h1>Nom Appli</h1> 
                     </a>
                 </div><br>
             </nav>
             <form class="" name="form_choix">
                 <div class="form-group col-md-4">
-                    <label for="inputState">Jour</label><br>
-                    <select id="inputState" class="form-control">
-                        <option selected>choisissez le jour </option>
+                    <label for="inputState">Jour de naissance</label><br>
+                    <select id="inputState" class="form-control fst-italic text-center">
+                        <option selected>Choisissez votre jour</option>
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -64,14 +64,14 @@
                     </select>
                 </div>
                 <div class="form-group col-md-4">
-                    <label for="inputState">mois</label><br>
-                    <select id="inputState" class="form-control">
-                        <option selected>choisissez le mois </option>
+                    <label for="inputState">Mois de naissance</label><br>
+                    <select id="inputState" class="form-control text-center fst-italic">
+                        <option selected>Choisissez votre mois</option>
                         <option>Janvier</option>
                         <option>Février</option>
                         <option>Mars</option>
                         <option>Avril</option>
-                        <option>Mais</option>
+                        <option>Mai</option>
                         <option>juin</option>
                         <option>Juillet</option>
                         <option>Août</option>
@@ -81,6 +81,9 @@
                         <option>Décembre</option>
                 </div>
             </form>
+            <h1></h1>
+            <input type="radio" class="btn-check justify-content-center" name="goboutton" id="goBtn" autocomplete="off" checked>
+            <label class="btn btn-outline-primary" for="btnGo">GO</label>
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
