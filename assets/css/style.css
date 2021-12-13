@@ -1,4 +1,19 @@
 header{
     border: 5px solid red;
-    height: 200px;
+    height: 150px;
+    width: 100%;
+    background-color:  #25076b;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.pseudo{
+    border: 5px solid black;
+    height: 812px;
+    width: 100%;
+    background-color: #47178f;
+    color: white;
+    text-align: center;
+    padding: 100px;
 }
