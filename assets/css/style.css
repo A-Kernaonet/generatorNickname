@@ -1,13 +1,13 @@
 .navbar {
-    background: #47178f;
-}
-
-body {
     background: #25076b;
 }
 
-.goButton {
+body {
     background: #47178f;
+}
+
+.goButton {
+    background: #25076b;
 }
 /* 
 .form {
@@ -25,7 +25,7 @@ body {
 } 
 
 .footer {
-    background-color: #47178f;
+    background-color: #25076b;
     position: absolute;
     bottom: 0;
     width: 100%;
