@@ -16,13 +16,11 @@ body {
     background-color: #25076b;
     position: absolute;
     bottom: 0;
-    height: 3em;
 }
 .pseudo{
-    height: 100%;
     text-align: center;
-    font-size: 25px;
-    padding: 20px;
+    font-size: 1.5em;
+    padding: 8em;
 }
 
 .example{
@@ -34,10 +32,4 @@ body {
     padding: 20px;
     border-radius: 10px;
     margin: auto;
-}
-
-@media screen and (max-width: 600px) {
-    .pseudo{
-        width: 50%;
-    }
 }
