@@ -1,0 +1,11 @@
+.body {
+    font-size: 100%;
+    font-family: 'Poppins';
+    font-family: 'Montserrat';
+    height:100%;
+}
+
+.form_choix
+ {
+    align-items: center;
+}
