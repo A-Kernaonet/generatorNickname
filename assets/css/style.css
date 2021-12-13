@@ -1,6 +1,6 @@
 header{
     height: 150px;
-    width: 100%;
+    width: auto;
     background-color:  #25076b;
     color: white;
     text-align: center;
@@ -26,4 +26,10 @@ header{
     padding: 15px;
     border-radius: 30px;
     margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .pseudo{
+        width: 50%;
+    }
 }
