@@ -24,8 +24,6 @@ body {
 }
 
 .example{
-    height: 3em;
-    width: 30em;
     background-color: white;
     color: gray;
     text-align: center;
