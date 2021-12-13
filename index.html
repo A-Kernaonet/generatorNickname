@@ -21,11 +21,11 @@
             </a>
         </div><br>
     </nav>
-    <form class="" action="page.html" method="post">
+    <form class="" method="post" action="./page.html">
         <div class="form-group col-md-4">
             <label for="jour">Jour</label><br>
-            <select id="jour" name="inputJour" class="form-control">
-                <option selected>choisissez le jour </option>
+            <select required id="jour" name="inputJour" class="form-control">
+                <option value="" selected>choisissez le jour </option>
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
@@ -61,8 +61,8 @@
         </div>
         <div class="form-group col-md-4">
             <label for="mois">mois</label><br>
-            <select id="mois" name="inputMois" class="form-control">
-                <option selected>choisissez le mois </option>
+            <select required id="mois" name="inputMois" class="form-control">
+                <option value="" selected>choisissez le mois </option>
                 <option>Janvier</option>
                 <option>Février</option>
                 <option>Mars</option>
@@ -77,14 +77,14 @@
                 <option>Décembre</option>
             </select>
         </div>
-        <input type="submit" value="Vazy envoie !">
+        <!-- <a href="../generatorNickname/page.html"><button id="btnPseudo" type="button" value="Vazy envoie !">GO</button></a> -->
+        <input type="submit" name="btnPseudo" id="btnPseudo">
     </form>
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/script.js"></script>
+    <!-- <script type="text/javascript" src="assets/js/script.js"></script> -->
 </body>
 
 </html>
