@@ -1,24 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
 
-/* .navbar {
-    background: #25076b;
-    
-} */
-
-body {
-    background: #47178f;
-}
-
-.goButton {
-    background: black;
-}
-
-
 
 .navbar {
     background: #25076b;
     font-family: 'Fuzzy Bubbles', cursive;
-    height: 6.5rem;
 }
 .header
 {
@@ -54,30 +39,14 @@ body {
 
 @media screen and (max-width : 600px) {
 
-    .form {
+    .pseudo {
         width: 13rem;
     }
 } 
 
-.footer {
-    background-color: #25076b;
-    position: absolute;
-    bottom: 0;    
-}
+@media screen and (max-width : 600px) {
 
-.mainTitle {
-
-    font-size: 3rem;
-}
-
-.qrButton {
-    background-color: black;
-}
-
-.modal {
-    position: fixed;
-    z-index: 2000;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    .example {
+        width: 13rem;
+    }
 }
